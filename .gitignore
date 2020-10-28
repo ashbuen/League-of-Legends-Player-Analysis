@@ -4,6 +4,15 @@ __pycache__/
 *$py.class
 .DS_store
 config.py
+api_key = "RGAPI-306a724e-ac17-4471-9ff8-d1ad0e7dbe1c"
+
+my_encrypted_id = "9nEVtof3DmxVx1XGnYBE5NATYI4xG6kIlUfQ7MwdHdyICE4"
+my_account_id = "icd_19Zopo7O27pfK1LnoBURSLn2s6TtRjuFNGMfjctX3nM"
+my_puuid = "ANC0e-af0Z5andARsOkv7qk-cRL_y8GL9dFqd21g3E2KXzwgS554ZCyFThLozEjdtBD_m8nnzrT1hA"
+
+second_encrypted_id = "9gHtb7X5uABfiwl3lwy09qaZJqR77m2YtD5DRfr8WQalJ94"
+second_account_id = "FCKaJIH5EyTqXyuV-m7QFzP-AlNbXOLm650s2J2VjJG63oE"
+second_puuid = "DlWrdj_UeXYZ_Ld0F0ZGWTAcAsPfRXZ5Ruz54070-xjnD8UAOZnNg9qlYJC2ieIVsOw4ZG3Hf8GMkw"
 
 # C extensions
 *.so
