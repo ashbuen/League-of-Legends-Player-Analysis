@@ -5,6 +5,7 @@ __pycache__/
 .DS_store
 config.py
 api_key = "RGAPI-306a724e-ac17-4471-9ff8-d1ad0e7dbe1c"
+
 my_encrypted_id = "9nEVtof3DmxVx1XGnYBE5NATYI4xG6kIlUfQ7MwdHdyICE4"
 my_account_id = "icd_19Zopo7O27pfK1LnoBURSLn2s6TtRjuFNGMfjctX3nM"
 my_puuid = "ANC0e-af0Z5andARsOkv7qk-cRL_y8GL9dFqd21g3E2KXzwgS554ZCyFThLozEjdtBD_m8nnzrT1hA"
