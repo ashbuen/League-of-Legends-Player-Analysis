@@ -21,11 +21,9 @@ The second image displays the percentage of the overall kills and deaths each pe
 
 By looking at these two charts, the idea is while Umb12eon tends to get a lot of kills, Umb12eon gets more deaths. With that ratio, Umb12eon can be deemed as a below average player. Justrob86 on the other hand, the stats show that they are a somewhat decent player because they managed to keep their deaths below the amount of kills they obtain.
 
-from IPython.display import Image
-Image(filename = 'Images/Max_Kills_and_deaths.png')
+<img src = 'Images/Max_Kills_and_deaths.png'>
 
-from IPython.display import Image
-Image(filename = 'Images/Total_Kills_and_deaths.png')
+<img src = 'Images/Total_Kills_and_deaths.png'>
 
 
 
@@ -33,19 +31,18 @@ Image(filename = 'Images/Total_Kills_and_deaths.png')
 
 This question came to mind because the idea was to see whether or not the stats from the overall kills/deaths would be applicable to just one champion(character) that each person played as. Initially, the attempt to look at the data was through a scatter plot. But, the scatter plots didn't convey the proper kills/deaths when the x-axis was the date the game was played; the kills/deaths didn't always pair up on the date and sometimes overlapped because of the chance that the champion was played on the same day. The next idea was to use box plots. Once the box plots were made, it could easily be seen that Justrob86 once again has better ratios for kills/deaths than Umb12eon does. The first box plot shows that Justrob86's average kills and deaths fall around 12 and 7. The second box plot shows that Umb12eon has the average kills and deaths falling around 9 and 9. Even though there were a few games where Umb12eon had an extraordinary amount of kills, Justrob86's data shows more consistency and thus proving that they play better with the chosen champion.
 
-from IPython.display import Image
-Image(filename = 'Images/Rob_Veigar_Stats_Boxplots.png')
+<img src = 'Images/Rob_Veigar_Stats_Boxplots.png'>
 
-from IPython.display import Image
-Image(filename = 'Images/Umb_Veigar_Stats_Boxplots.png')
+<img src = 'Images/Umb_Veigar_Stats_Boxplots.png'>
 
 # -Can an overview of champion stats be displayed?
 
 This question was a bit more difficult than the other two because trying to display the entire dataset on one graph took awhile for the kernel to process. The bar charts below show in general how each person did with their kills and deaths with each champion that was ever played. The orange bars in each chart display the deaths and the blue represent kills. It can be seen that in Umb12eon's chart, the orange bars tend to be a bit higher than the blue bars. Yet, in Justrob86's chart, the orange bars are mostly at or below the blue bars. This shows that while Umb12eon can get a bunch of kills under their belt, the amount of deaths are right up there. Justrob86 on the other hand, managed to keep the amount of kills at a decent level and has their deaths quite low.
 
+<img src='Images/Umb12eon_All_Champions.png'>
+
 <img src='Images/Justrob86_All_Champions.png'>
 
-https://github.com/aidixon/Project1/blob/main/Images/Justrob86_All_Champions.png
 
 # Conclusion
 Based on the overall data, it can be seen that although Umb12eon has the skills to get a lot of kills with the champion that is played, Umb12eon needs to be more diligent in not getting killed in order to make their kill/death ratio better. A similar conclusion can be made for Justrob86, while they have a decent kill/death ratio, it could be even better by trying to not die in the game. The idea that there is potential to be better has both players wanting to continue playing the game. 
