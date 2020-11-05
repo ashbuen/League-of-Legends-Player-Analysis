@@ -13,9 +13,13 @@ This project is to show the ability to use what was learned in class and apply i
 -Summarize the analysis.
 
 # Brief Intro
-This project utilized data obtained from an online computer game called "League of Legends". The data that was obtained was grabbed from two player's accounts, myself and another person. Each data set was downloaded and made into a .csv file in order to read the csv file and create a dataframe from the two files. From there, the files were combined into one large dataframe and had the headers cleaned up to coincide with the players. Since the combined dataframe had N/A values, those had to be dropped. The droppped N/A values became the final dataframe, which was sorted by champions (characters) in ascending alphabetical order. From there, the following questions were asked and answered:
+
+The computer game League of Legends is a game that utilizes characters called "champions" and pits two teams of five against each other in an effort to destroy all of the enemy's towers to win the game. During the game, the amount of: kills, deaths, and assists someone obtains adds up. The player's stats are stored online where anyone can look for by searching the username of the person of interest.
+
+This project utilized data obtained from League of Legends. The data that was obtained was grabbed from two player's accounts, myself and another person. Each data set was downloaded and made into a .csv file in order to read the csv file and create a dataframe from the two files. From there, the files were combined into one large dataframe and had the headers cleaned up to coincide with the players. Since the combined dataframe had N/A values, those had to be dropped. The droppped N/A values became the final dataframe, which was sorted by champions (characters) in ascending alphabetical order. From there, the following questions were asked and answered:
 
 # Between the two players, who has the better kill/death ratio?
+
 The data for this question was pulled from two sets of the data. The first of the data contained the max kills and max deaths that each person had overall. The second set of data was pooled from the total amount of kills and deaths each person had. The first image below shows that while Umb12eon may have had the highest max kills, the person that had the lowest max number of deaths was Justrob86.
 The second image displays the percentage of the overall kills and deaths each person had. The second image essentially shows more of what the first image did, where the person that has the most amount of kills (overall now) is still Umb12eon, yet the one with the least amount of deaths (overall) is Justrob86.
 
@@ -45,5 +49,6 @@ This question was a bit more difficult than the other two because trying to disp
 
 
 # Conclusion
+
 Based on the overall data, it can be seen that although Umb12eon has the skills to get a lot of kills with the champion that is played, Umb12eon needs to be more diligent in not getting killed in order to make their kill/death ratio better. A similar conclusion can be made for Justrob86, while they have a decent kill/death ratio, it could be even better by trying to not die in the game. The idea that there is potential to be better has both players wanting to continue playing the game. 
 
